@@ -18,10 +18,7 @@ int main()
     
     cout << fixed << showpoint << setprecision(2);      
     
-    cout << "Line 14: Enter each volunteer's name and "         
-         << "the number of boxes " << endl         
-         << "         sold by each volunteer, ending "         
-         << "with -1: " << endl;                        
+                           
     
     totalNumOfBoxesSold = 0;                           
     numOfVolunteers = 0;                                
@@ -59,4 +56,5 @@ int main()
         cout << "Line 34: No input." << endl;           
         
     return 0;                                           
+    
 }
